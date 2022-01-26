@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "java/revision",
+        "annales/java"
+    ],
+    "restructuredtext.syntaxHighlighting.disabled": true,
+    "restructuredtext.languageServer.disabled": true
+}
