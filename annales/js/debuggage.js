@@ -19,7 +19,7 @@ function boucle(param) {
   })
 }
 
-boucle(true).then (function() 
+boucle(false).then (function() 
 {console.log("terminé")})
 .catch(function (res){console.log('Erreur1', res);})
 

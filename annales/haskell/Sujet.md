@@ -9,14 +9,19 @@ Quand cela est nécessaire répondez dans votre fichier par des commentaires (`{
 3. Soit le type `data Tree a = Tree a [Tree a]`. 
 
   - Expliquez ce que représente `a`. 
+    a représente un nom d'arbre
   - Expliquez ce que représente chacune des trois occurences du nom `Tree`. 
+    premier Tree = Tree donné en arg, deuxieme Tree,
   - Expliquez finalement ce que représente le type défini. 
 
+
 4. Définissez un type `Entry` représentant ce genre de données 
+
 ```
  { "Nobody06",
    author = "Nobody Jr",
    title = "My Article",
    year = 2006 }
 ```
-toujours structurées en quatre champs (le premier étant une clé). Ensuite, codez une fonction `hasKey :: String -> [Entry] -> Bool` indiquant si une clé donnée se trouve dans une liste d'entrées bibliographiques ou non. 
+
+..................
