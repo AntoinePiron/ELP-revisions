@@ -1,3 +1,6 @@
+
+
 getAt :: Int -> [a] -> a
-getAt (x:xs)
-  
+getAt n (x:xs) 
+  | n > 0 = getAt (n-1) xs 
+  | n==0 = x
